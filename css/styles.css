@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
 }
@@ -48,41 +49,44 @@ body {
 }
 
 /*--------Головне меню-----------------*/
-.site-link {
-    font-weight: 500;
-    font-size: 14px;        
+.nav-link {
+    font-weight: 500;       
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
     text-decoration: none;
 }
 
-.site-link:hover,
-.site-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--accent-color);
 }
 
-.site-link.current {
+.nav-link.current {
     color: var(--accent-color);
 }
 
 /*--------Контакти у шапці праворуч----------*/
-.contact-link {
+.contact-list .link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-decoration: none;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-list .link:hover,
+.contact-list .link:focus {
     color: var(--accent-color);
 }
 
 /*--------Заголовок секції-----------------*/
 .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
@@ -97,6 +101,7 @@ body {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--primary-white-color);
 }
 
@@ -114,39 +119,22 @@ body {
 
 /*---------Особливості----------------*/
 .feature-title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--title-text-color);
 }
 
 .feature-descr {
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
-/*---------Чим ми займаємося----------------*/
-.section-work-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 
 /*---------Наша команда----------------*/
 .section-command {
     background-color: var(--light-bg-color);
-}
-
-.section-command-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .member-item {
@@ -177,7 +165,7 @@ body {
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
+    color: var(--title-text-color);
     background-color: var(--primary-white-color);
     cursor: pointer;
 }
@@ -190,7 +178,6 @@ body {
 }
 
 .portfolio-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -222,17 +209,15 @@ body {
     color: var(--primary-white-color);
 }
 
-.address-link {
+.address-list .link {
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;  
+    letter-spacing: 0.03em;
     color: var(--primary-white-color);
     text-decoration: none;
 }
 
-.address-link:hover,
-.address-link:focus {
-    color: var(--accent-color);
+.address-list .contact-link {
+    color: rgba(255, 255, 255, 0.6);
 }
 
