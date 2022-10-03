@@ -223,6 +223,11 @@ body {
     text-decoration: none;
 }
 
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--accent-color);
+}
+
 .address-list .contact-link {
     color: rgba(255, 255, 255, 0.6);
 }
