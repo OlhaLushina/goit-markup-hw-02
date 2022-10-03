@@ -2,6 +2,7 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196f3;
+    --accent-active-color: #188CE8;
     --primary-white-color: #ffffff;
     --primary-black-color: #000000;
     --dark-bg-color: #2f303a;
@@ -115,6 +116,11 @@ body {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--accent-active-color);
 }
 
 /*---------Особливості----------------*/
